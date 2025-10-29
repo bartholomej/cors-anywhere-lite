@@ -1,0 +1,43 @@
+{
+  "name": "cors-anywhere-lite",
+  "version": "1.0.0",
+  "description": "A super-tiny CORS proxy server. Disable CORS restrictions for your frontend applications.",
+  "author": "BART! <bart@bartweb.cz>",
+  "type": "module",
+  "scripts": {
+    "start": "yarn tsx src/server",
+    "start:prod": "node dist/server.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "polka": "^0.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "@types/polka": "^0.5.8",
+    "tsx": "^4.20.6",
+    "typescript": "^6.0.0-dev.20251029"
+  },
+  "repository": {
+    "url": "git+https://github.com/bartholomej/cors-anywhere-lite.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/bartholomej/cors-anywhere-lite/issues"
+  },
+  "homepage": "https://github.com/bartholomej/cors-anywhere-lite#readme",
+  "keywords": [
+    "cors",
+    "proxy",
+    "middleware",
+    "polka",
+    "nodejs",
+    "node",
+    "typescript"
+  ],
+  "engines": {
+    "node": ">= 22"
+  },
+  "license": "MIT"
+}
