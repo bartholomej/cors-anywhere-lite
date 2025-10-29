@@ -53,7 +53,17 @@ PORT=3000
 - `AUTH_TOKEN`: The authentication token required for authorization.
 - `PORT`: The port on which the server will run (default is 3000).
 
-## Docker
+## 📦 Docker
+
+We have [prepared a Docker image](https://hub.docker.com/r/bartholomej/cors-anywhere-lite) for you.
+
+### Prebuilt image
+
+```bash
+docker pull bartholomej/cors-anywhere-lite
+```
+
+### Build & run your own image
 
 Build the Docker image:
 
@@ -64,7 +74,7 @@ docker build -t cors-anywhere-lite .
 Run the Docker container:
 
 ```bash
-docker run -d -p 3000:3000 --name cors-anywhere-lite cors-anywhere-lite
+docker run -d -p 3000:3000 cors-anywhere-lite
 ```
 
 ## 🤝 Contribution
